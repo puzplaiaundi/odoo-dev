@@ -22,8 +22,6 @@ services:
     volumes:
       - ./addons:/mnt/extra-addons
       - ./config:/etc/odoo
-    env_file:
-      - .env
     environment:
       - HOST=db
       - USER=odoo

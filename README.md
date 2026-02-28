@@ -24,7 +24,7 @@ git --version
 
 Clonar incluyendo los submódulos
 ```bash
-git clone --recurse-submodules https://github.com/TU_USUARIO/odoo-dev.git
+git clone --recurse-submodules https://github.com/puzplaiaundi/odoo-dev.git
 cd odoo-dev
 ```
 

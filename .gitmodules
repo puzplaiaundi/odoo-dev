@@ -1,0 +1,3 @@
+[submodule "addons/gestion_erasmus"]
+	path = addons/gestion_erasmus
+	url = https://github.com/puzplaiaundi/odoo-erasmus.git

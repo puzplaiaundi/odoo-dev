@@ -48,7 +48,7 @@ por una contraseña segura.
 
 ## 🐳 Construir y levantar el entorno
 Primera vez:
-'''bash
+```bash
 docker compose -f docker-compose.dev.yml up --build -d
 ```
 En ejecuciones posteriores:

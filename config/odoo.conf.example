@@ -1,0 +1,8 @@
+[options]
+admin_passwd = CHANGE_ME
+db_host = db
+db_port = 5432
+db_user = odoo
+db_password = odoo
+addons_path = /mnt/extra-addons
+

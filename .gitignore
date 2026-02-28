@@ -1,2 +1,5 @@
 postgres-data/
 .env
+# Secretos locales
+confit/odoo.conf
+.env 

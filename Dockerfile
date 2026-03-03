@@ -1,8 +1,10 @@
 FROM odoo:17
 
 USER root
-COPY requirements.txt /tmp/requirements.txt
-RUN pip install --no-cache-dir -r /tmp/requirements.txt
-ENV ADMIN_PASSWD=${ODOO_ADMIN_PASSWD}
+
+RUN apt-get update && apt-get install -y libreoffice
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 
 USER odoo

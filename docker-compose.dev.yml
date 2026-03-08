@@ -27,3 +27,9 @@ services:
       - USER=odoo
       - PASSWORD=odoo
     restart: unless-stopped
+  adminer:
+    image: adminer
+    container_name: odoo_adminer
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

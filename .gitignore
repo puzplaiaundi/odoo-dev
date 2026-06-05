@@ -3,3 +3,6 @@ postgres-data/
 # Secretos locales
 config/odoo.conf
 .env 
+__pycache__/
+*.py[cod]
+*$py.class
